@@ -19,17 +19,24 @@ body {
 	opacity: 1;
 }
 
-.grid-item img:hover {
+.grid-item:hover img {
 	opacity: 0.4;
 	filter:alpha(opacity=40);
 }
 
-.image-text:hover {
-	display: block;
+.grid-item:hover .image-text {
+	opacity: 1;
 }
 
-h3 {
-	display: none;
+.image-text {
+	opacity: 0;
+	color: white;
+	position: absolute;
+	z-index: 1000;
+	bottom: 50%;
+	font-size: 40px;
+	text-align: center;
+	width: 320px;
 }
 
 @media all and (max-width: 768px) {
