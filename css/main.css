@@ -45,6 +45,16 @@ body {
 	margin-bottom: 10px;
 }
 
+.logo {
+	text-align: center;
+}
+
+.center {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
 @media all and (max-width: 768px) {
 	.grid-item {
 		width: 33.3%;

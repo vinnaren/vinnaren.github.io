@@ -10,41 +10,50 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <div class="grid">
+    <div class="logo">
+      <span class="center"></span>
+      <img src="images/logo.png" />
+    </div>
+
+    <div class="video" style="display:none;">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/swQNPyPVsYM?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="grid" style="display:none;">
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-bridge.jpeg">
         <img class="grid-image" src="images/photo-bridge.jpeg" />
-        <h3 class="image-text">Ibland</h3>
+        <h3 class="image-text" id="0">Ibland</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-waterfall.jpeg">
         <img class="grid-image" src="images/photo-waterfall.jpeg" />
-        <h3 class="image-text">är</h3>
+        <h3 class="image-text" id="1">är</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-space.jpeg">
         <img class="grid-image" src="images/photo-space.jpeg" />
-        <h3 class="image-text">en</h3>
+        <h3 class="image-text" id="2">en</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-food.jpeg">
         <img class="grid-image" src="images/photo-food.jpeg" />
-        <h3 class="image-text">lögn</h3>
+        <h3 class="image-text" id="3">lögn</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-tea.jpeg">
         <img class="grid-image" src="images/photo-tea.jpeg" />
-        <h3 class="image-text">det</h3>
+        <h3 class="image-text" id="4">det</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-love.jpeg">
         <img class="grid-image" src="images/photo-love.jpeg" />
-        <h3 class="image-text">finaste</h3>
+        <h3 class="image-text" id="5">finaste</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-flight.jpeg">
         <img class="grid-image" src="images/photo-flight.jpeg" />
-        <h3 class="image-text">man</h3>
+        <h3 class="image-text" id="6">man</h3>
       </div>
       <div class="grid-item" data-toggle="modal" data-target="#infoModal" data-image="images/photo-travel.jpg">
         <img class="grid-image" src="images/photo-travel.jpg" />
-        <h3 class="image-text">har</h3>
+        <h3 class="image-text" id="7">har</h3>
       </div>
     </div>
-
+    
     <div class="modal fade" tabindex="-1" role="dialog" id="infoModal">
       <div class="modal-dialog">
         <div class="modal-content">
