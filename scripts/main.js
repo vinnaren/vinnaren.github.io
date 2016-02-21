@@ -7,18 +7,12 @@ function showImages() {
   });
 
   imagesLoaded(gridElem).on('progress', function() {
+    $('.logo').css('display', 'none');
     gridMasonry.layout();
   });
 }
 
-setTimeout(function() {
-  $('.logo').css('display', 'none');
-  $('.video').css('display', 'block');
-  setTimeout(function() {
-    $('.video').css('display', 'none');
-    $('.grid').fadeIn('slow', showImages());
-  }, 210000);
-}, 2000);
+$('.grid').fadeIn('slow', showImages());
 
 $('#infoModal').on('show.bs.modal', function (event) {
   var gridItem = $(event.relatedTarget);
